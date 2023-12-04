@@ -237,7 +237,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 800;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -300,20 +300,20 @@ input, select, textarea {
 	sub {
 		font-size: 0.8em;
 		position: relative;
-		top: 0.5em;
+		top: 0.2em;
 	}
 
 	sup {
 		font-size: 0.8em;
 		position: relative;
-		top: -0.5em;
+		top: -0.2em;
 	}
 
 	blockquote {
 		border-left: 4px #36383c;
 		font-style: italic;
 		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		padding: 0.2em 0 0.2em 2em;
 	}
 
 	code {
@@ -426,7 +426,7 @@ input, select, textarea {
 			input[type="button"].icon:before,
 			button.icon:before,
 			.button.icon:before {
-				margin-right: 0.5em;
+				margin-right: 0.2em;
 			}
 
 		input[type="submit"].fit,
@@ -533,7 +533,7 @@ input, select, textarea {
 				}
 
 				form > .fields > .field.third {
-					width: calc(100%/3 - 0.5em);
+					width: calc(100%/3 - 0.2em);
 				}
 
 				form > .fields > .field.quarter {
@@ -620,7 +620,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%2336383c' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.2-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.2,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.2,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.2-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.2-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%2336383c' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -805,7 +805,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0.2em;
 		}
 
 		ul.alt {
@@ -815,7 +815,7 @@ input, select, textarea {
 
 			ul.alt li {
 				border-top: solid 1px #36383c;
-				padding: 0.5em 0;
+				padding: 0.2em 0;
 			}
 
 				ul.alt li:first-child {
@@ -954,7 +954,7 @@ input, select, textarea {
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
 						ul.actions:not(.fixed) li .button.icon:before {
-							margin-left: -0.5rem;
+							margin-left: -0.2rem;
 						}
 
 		}
@@ -1060,10 +1060,10 @@ input, select, textarea {
 		-webkit-transform: translateY(100vh);
 		-ms-transform: translateY(100vh);
 		transform: translateY(100vh);
-		-moz-transition: -moz-transform 0.5s ease;
-		-webkit-transition: -webkit-transform 0.5s ease;
-		-ms-transition: -ms-transform 0.5s ease;
-		transition: transform 0.5s ease;
+		-moz-transition: -moz-transform 0.2s ease;
+		-webkit-transition: -webkit-transform 0.2s ease;
+		-ms-transition: -ms-transform 0.2s ease;
+		transition: transform 0.2s ease;
 		-webkit-overflow-scrolling: touch;
 		background: rgba(36, 38, 41, 0.975);
 		bottom: 4em;
@@ -1105,10 +1105,10 @@ input, select, textarea {
 				}
 
 		.panel > .closer {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
+			-moz-transition: opacity 0.1s ease-in-out;
+			-webkit-transition: opacity 0.1s ease-in-out;
+			-ms-transition: opacity 0.1s ease-in-out;
+			transition: opacity 0.1s ease-in-out;
 			background-image: url("images/close.svg");
 			background-position: center;
 			background-repeat: no-repeat;
@@ -1189,15 +1189,15 @@ input, select, textarea {
 
 	.poptrox-popup {
 		background: rgba(31, 34, 36, 0.925);
-		box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
+		box-shadow: 0 1em 3em 0.2em rgba(0, 0, 0, 0.25);
 		cursor: default;
 	}
 
 		.poptrox-popup:before {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
+			-moz-transition: opacity 0.1s ease-in-out;
+			-webkit-transition: opacity 0.1s ease-in-out;
+			-ms-transition: opacity 0.1s ease-in-out;
+			transition: opacity 0.1s ease-in-out;
 			background-image: -moz-linear-gradient(to left, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0)), -moz-linear-gradient(to right, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0));
 			background-image: -webkit-linear-gradient(to left, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0)), -webkit-linear-gradient(to right, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0));
 			background-image: -ms-linear-gradient(to left, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0)), -ms-linear-gradient(to right, rgba(31,34,36,0.35), rgba(31,34,36,0) 10em, rgba(31,34,36,0));
@@ -1233,9 +1233,9 @@ input, select, textarea {
 
 		.poptrox-popup .nav-previous,
 		.poptrox-popup .nav-next {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
+			-moz-transition: opacity 0.1s ease-in-out;
+			-webkit-transition: opacity 0.1s ease-in-out;
+			-ms-transition: opacity 0.1s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background-image: url("images/arrow.svg");
 			background-position: center;
@@ -1279,7 +1279,7 @@ input, select, textarea {
 		}
 
 			.poptrox-popup .caption h2, .poptrox-popup .caption h3, .poptrox-popup .caption h4, .poptrox-popup .caption h5, .poptrox-popup .caption h6 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 0.2em 0;
 			}
 
 			.poptrox-popup .caption p {
@@ -1311,7 +1311,7 @@ input, select, textarea {
 		.poptrox-popup:hover .closer,
 		.poptrox-popup:hover .nav-previous,
 		.poptrox-popup:hover .nav-next {
-			opacity: 0.5;
+			opacity: 0.2;
 		}
 
 			.poptrox-popup:hover .closer:hover,
@@ -1364,20 +1364,20 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
-		-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-		-ms-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -ms-filter 0.5s ease;
-		transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease;
+		-moz-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -moz-filter 0.2s ease;
+		-webkit-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -webkit-filter 0.2s ease;
+		-ms-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -ms-filter 0.2s ease;
+		transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, filter 0.2s ease;
 		position: relative;
 	}
 
 		#wrapper:after {
 			pointer-events: none;
-			-moz-transition: opacity 0.5s ease, visibility 0.5s;
-			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
-			-ms-transition: opacity 0.5s ease, visibility 0.5s;
-			transition: opacity 0.5s ease, visibility 0.5s;
-			background: rgba(36, 38, 41, 0.5);
+			-moz-transition: opacity 0.2s ease, visibility 0.2s;
+			-webkit-transition: opacity 0.2s ease, visibility 0.2s;
+			-ms-transition: opacity 0.2s ease, visibility 0.2s;
+			transition: opacity 0.2s ease, visibility 0.2s;
+			background: rgba(36, 38, 41, 0.2);
 			content: '';
 			display: block;
 			height: 100%;
@@ -1442,10 +1442,10 @@ input, select, textarea {
 			-webkit-transition: opacity 1s ease-out !important;
 			-ms-transition: opacity 1s ease-out !important;
 			transition: opacity 1s ease-out !important;
-			-moz-transition-delay: 0.5s !important;
-			-webkit-transition-delay: 0.5s !important;
-			-ms-transition-delay: 0.5s !important;
-			transition-delay: 0.5s !important;
+			-moz-transition-delay: 0.2s !important;
+			-webkit-transition-delay: 0.2s !important;
+			-ms-transition-delay: 0.2s !important;
+			transition-delay: 0.2s !important;
 			opacity: 0.25;
 			top: 50%;
 			visibility: visible;
@@ -1524,10 +1524,10 @@ input, select, textarea {
 				}
 
 					#header nav > ul > li a {
-						-moz-transition: background-color 0.5s ease;
-						-webkit-transition: background-color 0.5s ease;
-						-ms-transition: background-color 0.5s ease;
-						transition: background-color 0.5s ease;
+						-moz-transition: background-color 0.2s ease;
+						-webkit-transition: background-color 0.2s ease;
+						-ms-transition: background-color 0.2s ease;
+						transition: background-color 0.2s ease;
 						border: 0;
 						color: #ffffff;
 						display: inline-block;
@@ -1588,10 +1588,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
-		-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-		-ms-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -ms-filter 0.5s ease;
-		transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease;
+		-moz-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -moz-filter 0.2s ease;
+		-webkit-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -webkit-filter 0.2s ease;
+		-ms-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -ms-filter 0.2s ease;
+		transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, filter 0.2s ease;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1660,10 +1660,10 @@ input, select, textarea {
 
 		#main:after {
 			pointer-events: none;
-			-moz-transition: opacity 0.5s ease, visibility 0.5s;
-			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
-			-ms-transition: opacity 0.5s ease, visibility 0.5s;
-			transition: opacity 0.5s ease, visibility 0.5s;
+			-moz-transition: opacity 0.2s ease, visibility 0.2s;
+			-webkit-transition: opacity 0.2s ease, visibility 0.2s;
+			-ms-transition: opacity 0.2s ease, visibility 0.2s;
+			transition: opacity 0.2s ease, visibility 0.2s;
 			background: rgba(36, 38, 41, 0.25);
 			content: '';
 			display: block;
@@ -1678,7 +1678,7 @@ input, select, textarea {
 		}
 
 			body.ie #main:after {
-				background: rgba(36, 38, 41, 0.55);
+				background: rgba(36, 38, 41, 0.25);
 			}
 
 		body.content-active #main {
